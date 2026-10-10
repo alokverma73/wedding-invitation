@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shilpa &amp; Siddharth | Wedding Invitation</title>
+<meta name="description" content="Join us as Shilpa &amp; Siddharth begin their beautiful journey together on 03 December 2026.">
+<meta name="theme-color" content="#0c0a1d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shilpa &amp; Siddharth | Wedding Invitation">
+<meta property="og:description" content="Join us as Shilpa &amp; Siddharth begin their beautiful journey together on 03 December 2026.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500&amp;family=Jost:wght@300;400;500&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+<noscript><style>#intro{display:none!important}body.locked{overflow:auto!important}</style></noscript>
+</head>
+<body class="locked">
+
+<!-- Reusable ornaments -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="flower" viewBox="0 0 100 100">
+      <g fill="currentColor" fill-opacity=".62">
+        <ellipse cx="50" cy="24" rx="9" ry="21"/><ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(45 50 50)"/>
+        <ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(90 50 50)"/><ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(135 50 50)"/>
+        <ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(180 50 50)"/><ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(225 50 50)"/>
+        <ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(270 50 50)"/><ellipse cx="50" cy="24" rx="9" ry="21" transform="rotate(315 50 50)"/>
+      </g>
+      <circle cx="50" cy="50" r="7" fill="#fff" fill-opacity=".8"/>
+    </symbol>
+    <symbol id="corner" viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+        <path d="M4 4H70M4 4V70"/><path d="M10 10C44 10 56 32 40 44C28 52 16 42 25 33C32 27 41 34 35 40"/>
+        <path d="M10 10C10 44 32 56 44 40C52 28 42 16 33 25C27 32 34 41 40 35"/><path d="M62 4C69 11 69 18 62 24C55 18 55 11 62 4Z" fill="currentColor" fill-opacity=".35"/>
+        <path d="M4 62C11 69 18 69 24 62C18 55 11 55 4 62Z" fill="currentColor" fill-opacity=".35"/>
+      </g>
+      <circle cx="10" cy="10" r="3" fill="currentColor"/><circle cx="80" cy="4" r="1.6" fill="currentColor"/><circle cx="4" cy="80" r="1.6" fill="currentColor"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="pattern" aria-hidden="true"></div>
+<div class="sparks" id="sparks" aria-hidden="true"></div><div class="petals" id="petals" aria-hidden="true"></div>
+<div class="viewframe" aria-hidden="true"><svg class="vf a"><use href="#corner"/></svg><svg class="vf b"><use href="#corner"/></svg><svg class="vf c"><use href="#corner"/></svg><svg class="vf d"><use href="#corner"/></svg></div>
+<div class="grain" aria-hidden="true"></div><div class="progress" id="progress"></div>
+
+<!-- 1. Opening screen: curtain -->
+<div class="intro" id="intro" role="dialog" aria-label="Wedding invitation">
+  <div class="intro__glow"></div>
+  <div class="curtain curtain--l"></div>
+  <div class="curtain curtain--r"></div>
+  <div class="intro__rod"></div>
+  <div class="intro__card">
+    <svg class="intro__flower" aria-hidden="true"><use href="#flower"/></svg>
+    <p class="intro__small line" style="--i:1">Together with our families</p>
+    <h1 class="intro__names">
+      <span class="line" style="--i:2">Shilpa</span>
+      <span class="amp line" style="--i:3">&amp;</span>
+      <span class="line" style="--i:4">Siddharth</span>
+    </h1>
+    <p class="intro__date line" style="--i:5">03 &bull; 12 &bull; 2026</p>
+    <button class="touch line" style="--i:6" id="openBtn" type="button"><span class="touch__ring"></span>Touch<br>to open</button>
+  </div>
+</div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#home" aria-label="Home">S <i>&amp;</i> S</a>
+  <nav class="nav__links" aria-label="Main">
+    <a href="#home">Home</a><a href="#story">Our Story</a><a href="#events">Events</a>
+    <a href="#gallery">Gallery</a><a href="#venue">Venue</a><a href="#rsvp">RSVP</a>
+  </nav>
+  <button class="nav__toggle" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+</header>
+<div class="menu" id="mobileMenu" hidden>
+  <a href="#home">Home</a><a href="#story">Our Story</a><a href="#events">Events</a>
+  <a href="#gallery">Gallery</a><a href="#venue">Venue</a><a href="#rsvp">RSVP</a>
+</div>
+
+<main>
+<!-- 2. Hero -->
+<section class="hero" id="home">
+  <div class="toran" aria-hidden="true"></div>
+  <div class="hero__text">
+    <h2 class="hero__names hero-anim" style="--i:1"><span class="shine">Shilpa <i>&amp;</i> Siddharth</span></h2>
+    <p class="hero__tag hero-anim" style="--i:2">Two hearts, one beautiful beginning.</p>
+    <div class="hero__when hero-anim" style="--i:3">
+      <p class="hero__date">03 December 2026</p>
+      <p class="hero__time">Thursday &bull; 6:00 PM</p>
+    </div>
+    <div class="hero__cta hero-anim" style="--i:4"><a class="btn" href="#events">Explore Invitation</a><a class="btn btn--ghost" href="#rsvp">RSVP Here</a></div>
+  </div>
+  <div class="hero__photos">
+    <div class="halo" aria-hidden="true"></div>
+    <figure class="arch arch--1 hero-anim" style="--i:2" data-photo-wrap>
+      <div class="arch__in"><svg class="ph" aria-hidden="true"><use href="#flower"/></svg>
+        <img src="assets/couple-1.jpg" alt="Shilpa and Siddharth sharing a look" width="853" height="1280" fetchpriority="high" data-photo style="object-position:50% 28%"></div>
+    </figure>
+    <figure class="arch arch--2 hero-anim" style="--i:4" data-photo-wrap>
+      <div class="arch__in"><svg class="ph" aria-hidden="true"><use href="#flower"/></svg>
+        <img src="assets/couple-2.jpg" alt="Shilpa and Siddharth smiling at each other" width="853" height="1280" data-photo style="object-position:50% 40%"></div>
+    </figure>
+  </div>
+  <a class="cue" href="#invitation" aria-label="Scroll down"><span>Scroll</span><i></i></a>
+</section>
+
+<!-- 3. Invitation -->
+<section class="section invite" id="invitation">
+  <div class="frame reveal">
+    <svg class="frame__c c1" aria-hidden="true"><use href="#corner"/></svg><svg class="frame__c c2" aria-hidden="true"><use href="#corner"/></svg>
+    <svg class="frame__c c3" aria-hidden="true"><use href="#corner"/></svg><svg class="frame__c c4" aria-hidden="true"><use href="#corner"/></svg>
+    <h2 class="h2">You Are Cordially Invited</h2>
+    <div class="orn"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <p class="lead">Together with our families, we invite you to celebrate our wedding and begin our life together.</p>
+  </div>
+</section>
+
+<!-- 4. Story -->
+<section class="section story" id="story">
+  <div class="container narrow">
+    <h2 class="h2 reveal">Our Story</h2>
+    <div class="orn reveal"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <p class="story__p reveal">What started as a simple hello turned into endless coffee dates, shared dreams, and a lifetime of laughter.</p>
+    <p class="story__p reveal" style="--d:.15s">From our very first adventure together, we knew we had found our favorite person.</p>
+    <p class="story__p reveal" style="--d:.3s">Now, we are ready to write our next big chapter side by side.</p>
+  </div>
+</section>
+
+<!-- 5. Countdown -->
+<section class="section count" id="countdown">
+  <div class="container narrow reveal">
+    <p class="kicker">Counting down to 03 December 2026, 6:00 PM</p>
+    <div class="count__grid" id="countGrid" role="timer" aria-live="off">
+      <div><b id="cd-d">00</b><span>Days</span></div><div><b id="cd-h">00</b><span>Hours</span></div>
+      <div><b id="cd-m">00</b><span>Minutes</span></div><div><b id="cd-s">00</b><span>Seconds</span></div>
+    </div>
+    <p class="count__done" id="countDone" hidden>The celebration has begun ❤️</p>
+  </div>
+</section>
+
+<!-- 6. Events -->
+<section class="section events" id="events">
+  <div class="container">
+    <h2 class="h2 reveal">Wedding Events</h2>
+    <div class="orn reveal"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <div class="cards">
+      <article data-tilt class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 100 100" style="color:#d9a93f"><use href="#flower"/></svg></div>
+        <h3>Haldi Tales</h3><p class="card__day">Haldi &bull; Tuesday</p><p class="card__date">01 December 2026</p><p class="card__time">1:00 PM</p>
+        <p class="card__venue"><strong>At Home</strong><br>Village Gopalpur Madhaiya, Post Belahi,<br>Lambhua, Sultanpur, UP 222302</p>
+        <a class="btn btn--ghost" href="https://goo.gl/maps/akkj5hTVqDGk2Pti9?g_st=ac" target="_blank" rel="noopener">View Location</a>
+      </article>
+      <article data-tilt class="card reveal" style="--d:.1s">
+        <div class="card__icon"><svg viewBox="0 0 48 48" class="line-icon"><path d="M30 8c8 6 10 18 4 27-5 8-17 9-22 2-4-6-1-13 5-14 5-1 8 4 6 8"/><circle cx="31" cy="18" r="1.6"/></svg></div>
+        <h3>Mehfil-e-Mehendi</h3><p class="card__day">Mehendi &bull; Tuesday</p><p class="card__date">01 December 2026</p><p class="card__time">5:00 PM</p>
+        <p class="card__venue"><strong>At Home</strong><br>Village Gopalpur Madhaiya, Post Belahi,<br>Lambhua, Sultanpur, UP 222302</p>
+        <a class="btn btn--ghost" href="https://goo.gl/maps/akkj5hTVqDGk2Pti9?g_st=ac" target="_blank" rel="noopener">View Location</a>
+      </article>
+      <article data-tilt class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 48 48" class="line-icon"><path d="M18 34V12l16-4v22"/><circle cx="14" cy="34" r="4"/><circle cx="30" cy="30" r="4"/></svg></div>
+        <h3>Musical Masti</h3><p class="card__day">Sangeet &bull; Wednesday</p><p class="card__date">02 December 2026</p><p class="card__time">6:00 PM</p>
+        <p class="card__venue"><strong>At Home</strong><br>Village Gopalpur Madhaiya, Post Belahi,<br>Lambhua, Sultanpur, UP 222302</p>
+        <a class="btn btn--ghost" href="https://goo.gl/maps/akkj5hTVqDGk2Pti9?g_st=ac" target="_blank" rel="noopener">View Location</a>
+      </article>
+      <article data-tilt class="card card--main reveal" style="--d:.1s">
+        <div class="card__icon"><svg viewBox="0 0 48 48" class="line-icon"><circle cx="19" cy="29" r="9"/><circle cx="29" cy="29" r="9"/><path d="M24 5l4 5-4 5-4-5z"/></svg></div>
+        <h3>Wedding</h3><p class="card__day">Thursday</p><p class="card__date">03 December 2026</p><p class="card__time">6:00 PM</p>
+        <p class="card__venue"><strong>Kailash Marriage Lawn</strong><br>Lambhua, Sultanpur, Uttar Pradesh</p>
+        <a class="btn" href="https://maps.app.goo.gl/aFSuMiMTKaqBgEop7?g_st=ac" target="_blank" rel="noopener">View Location</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Celebration timeline -->
+<section class="section path" id="celebration">
+  <div class="container">
+    <h2 class="h2 reveal">Four Days of Celebration</h2>
+    <div class="orn reveal"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <ol class="timeline">
+      <li class="reveal"><span class="dot"><svg viewBox="0 0 100 100" style="color:#d9a93f"><use href="#flower"/></svg></span><h3>Haldi Tales</h3><p>01 Dec</p></li>
+      <li class="reveal" style="--d:.12s"><span class="dot"><svg viewBox="0 0 48 48" class="line-icon"><path d="M30 8c8 6 10 18 4 27-5 8-17 9-22 2-4-6-1-13 5-14 5-1 8 4 6 8"/></svg></span><h3>Mehfil-e-Mehendi</h3><p>01 Dec</p></li>
+      <li class="reveal" style="--d:.24s"><span class="dot"><svg viewBox="0 0 48 48" class="line-icon"><path d="M18 34V12l16-4v22"/><circle cx="14" cy="34" r="4"/><circle cx="30" cy="30" r="4"/></svg></span><h3>Musical Masti</h3><p>02 Dec</p></li>
+      <li class="reveal" style="--d:.36s"><span class="dot"><svg viewBox="0 0 48 48" class="line-icon"><circle cx="19" cy="29" r="9"/><circle cx="29" cy="29" r="9"/><path d="M24 5l4 5-4 5-4-5z"/></svg></span><h3>Wedding</h3><p>03 Dec</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 8. Family -->
+<section class="section family" id="family">
+  <div class="container narrow">
+    <h2 class="h2 reveal">With the Blessings of Our Families</h2>
+    <div class="orn reveal"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <div class="family__grid">
+      <div class="fam reveal"><p class="fam__label">Bride's Parents</p><p class="fam__name">Omprakash Verma</p><p class="fam__name">Savitri Verma</p></div>
+      <div class="fam reveal" style="--d:.15s"><p class="fam__label">Groom's Parents</p><p class="fam__name">Meheshbhai Patel</p><p class="fam__name">Bharatiben Patel</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Gallery (add more photos by copying a <figure class="gallery-item"> block) -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <h2 class="h2 reveal">Moments Together</h2>
+    <div class="orn reveal"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <div class="gallery__grid reveal" id="galleryGrid">
+      <figure class="gallery-item" data-photo-wrap><svg class="ph" aria-hidden="true"><use href="#flower"/></svg>
+        <img src="assets/moment-1.jpg" alt="Shilpa and Siddharth walking arm in arm" width="960" height="1280" loading="lazy" data-photo style="object-position:50% 35%"></figure>
+      <figure class="gallery-item" data-photo-wrap><svg class="ph" aria-hidden="true"><use href="#flower"/></svg>
+        <img src="assets/moment-2.jpg" alt="Shilpa and Siddharth walking hand in hand under coconut trees" width="960" height="1280" loading="lazy" data-photo style="object-position:50% 60%"></figure>
+      <figure class="gallery-item" data-photo-wrap><svg class="ph" aria-hidden="true"><use href="#flower"/></svg>
+        <img src="assets/moment-3.jpg" alt="Shilpa and Siddharth at a temple" width="960" height="1280" loading="lazy" data-photo style="object-position:50% 50%"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 11. Venue -->
+<section class="section venue" id="venue">
+  <div class="container narrow reveal">
+    <h2 class="h2">The Celebration Awaits</h2>
+    <div class="orn"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <p class="venue__name">Kailash Marriage Lawn</p>
+    <p class="venue__addr">Lambhua, Sultanpur, Uttar Pradesh</p>
+    <a class="btn" href="https://maps.app.goo.gl/aFSuMiMTKaqBgEop7?g_st=ac" target="_blank" rel="noopener">Get Directions</a>
+  </div>
+</section>
+
+<!-- 12. RSVP -->
+<section class="section rsvp" id="rsvp">
+  <div class="container narrow reveal">
+    <h2 class="h2">We Can't Wait to Celebrate With You</h2>
+    <div class="orn"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <p class="rsvp__note">Please confirm your presence with a quick WhatsApp message.</p>
+    <p class="rsvp__who"><strong>Alok Verma</strong><br>+91 63932 35528</p>
+    <a class="btn btn--wa" target="_blank" rel="noopener"
+       href="https://wa.me/916393235528?text=Hello%20Alok%20ji%2C%20I%20would%20like%20to%20confirm%20my%20presence%20for%20Shilpa%20%26%20Siddharth%27s%20wedding%20on%2003%20December%202026.">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.4.6.6-2.3-.2-.3A8 8 0 1 1 12 20Z"/></svg>
+      Confirm on WhatsApp</a>
+  </div>
+</section>
+
+<!-- 13. Final message -->
+<section class="section final" id="final">
+  <div class="container narrow reveal">
+    <p class="lead">Your love, guidance, and friendship have shaped who we are today. Having you there to witness our vows and share in this joy means the world to us.</p>
+    <div class="orn"><svg aria-hidden="true"><use href="#flower"/></svg></div>
+    <p class="final__names"><span class="shine">Shilpa <i>&amp;</i> Siddharth</span></p>
+    <p class="final__date">03 &bull; 12 &bull; 2026</p>
+    <p class="final__line">With love, laughter &amp; happily ever after.</p>
+  </div>
+</section>
+</main>
+
+<!-- 14. Footer -->
+<footer class="footer"><p class="footer__n">Shilpa <i>&amp;</i> Siddharth</p><p>03 December 2026</p></footer>
+
+<audio id="bgm" src="assets/wedding-music.mp3" preload="auto" loop></audio>
+
+<!-- Photo viewer -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Close">&times;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Previous photo">&#8249;</button>
+  <img id="lbImg" alt="">
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Next photo">&#8250;</button>
+</div>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
